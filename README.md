@@ -1,5 +1,5 @@
 # react-native-route-example
-Example to make a simple app route in react-ntive for IOS
+Example to make a simple app route in react-native for IOS
 
 Affter install and setup your project 
 

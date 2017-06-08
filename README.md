@@ -18,7 +18,7 @@ $ react-native init YourApp
  ```
 after this <br>
  ```
-$ npm install react-navigation -save  
+$ npm install react-navigation --save  
  ```
 and  
  ```

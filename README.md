@@ -12,7 +12,7 @@ $ react-native init YourApp
 
 ..cd YourApp 
 
--Open index.ios.js and include component 'NavigatorIOS' on react-native like this
+- Open index.ios.js and include component 'NavigatorIOS' on react-native like this
   ```
  import {AppRegistry, View, TouchableHighlight, StyleSheet, Text, Image, StatusBar, NavigatorIOS } from 'react-native';
  ```
@@ -25,3 +25,8 @@ and
   import {StackNavigator} from 'react-navigation'; 
  ```
 
+- Import  your screen  or states of app
+ ```
+import SecondScreen from './src/SecondScreen';
+import ThirdScreen  from './src/ThirdScreen';
+ ```

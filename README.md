@@ -26,6 +26,7 @@ and
  ```
 
 - Import  your screen  or states of app
+
  ```
 import SecondScreen from './src/SecondScreen';
 import ThirdScreen  from './src/ThirdScreen';

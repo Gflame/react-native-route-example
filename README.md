@@ -3,7 +3,7 @@ Example to make a simple app route in react-native for IOS
 
 After install and setup your project 
    ```
-$ npm install -g react-native-cli  
+$ npm install --g react-native-cli  
   ```
   
    ```
@@ -22,6 +22,6 @@ $ npm install react-navigation -save
  ```
 and  
  ```
-  import {StackNavigator} from 'react-navigation';</code>
+  import {StackNavigator} from 'react-navigation;' 
  ```
 

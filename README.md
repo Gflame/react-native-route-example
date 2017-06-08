@@ -10,14 +10,16 @@ $ npm install -g react-native-cli
 $ react-native init YourApp  
   ```
 
-cd YourApp 
+..cd YourApp 
 
-open index.ios.js and include component 'NavigatorIOS' on react-native like this
+-Open index.ios.js and include component 'NavigatorIOS' on react-native like this
   ```
  import {AppRegistry, View, TouchableHighlight, StyleSheet, Text, Image, StatusBar, NavigatorIOS } from 'react-native'; 
  ```
 after this <br>
-$ npm install react-navigation -save <br>
+ ```
+$ npm install react-navigation -save  
+ ```
 and  
  ```
   import {StackNavigator} from 'react-navigation';</code>

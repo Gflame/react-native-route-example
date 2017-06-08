@@ -14,7 +14,7 @@ $ react-native init YourApp
 
 -Open index.ios.js and include component 'NavigatorIOS' on react-native like this
   ```
- import {AppRegistry, View, TouchableHighlight, StyleSheet, Text, Image, StatusBar, NavigatorIOS } from 'react-native;'
+ import {AppRegistry, View, TouchableHighlight, StyleSheet, Text, Image, StatusBar, NavigatorIOS } from 'react-native';
  ```
 after this <br>
  ```
@@ -22,6 +22,6 @@ $ npm install react-navigation -save
  ```
 and  
  ```
-  import {StackNavigator} from 'react-navigation;' 
+  import {StackNavigator} from 'react-navigation'; 
  ```
 

@@ -33,3 +33,44 @@ and
 import SecondScreen from './src/SecondScreen';
 import ThirdScreen  from './src/ThirdScreen';
   ```
+  - Create Your home class and set up 'navigationOptions'
+  
+ ```
+class HomeScreen extends React.Component  {
+//set up your navigation bar view options
+    static navigationOptions = {
+        title: 'Your App Name',
+        headerTintColor: 'white',
+        headerTitleStyle: {
+            color: '#fff'
+        },
+        headerStyle: {
+            backgroundColor: 'blue'
+        },
+        barStyle:{
+            color:'#fff'
+        }
+    };
+
+    render() {
+//set up navigation onPress
+
+        const { navigate } = this.props.navigation;
+
+        return (
+            <View >
+                <StatusBar
+                    backgroundColor="blue"
+                    barStyle="light-content"
+                />
+                <TouchableHighlight  onPress={() => navigate('SecondScreen')}>
+                    <Text>Second Screen</Text>
+                </TouchableHighlight>
+                <TouchableHighlight   onPress={() => navigate('ThirdScreen')}>
+                    <Text>Third Screen</Text>
+                </TouchableHighlight>
+            </View>
+        );
+    }
+}
+ ```

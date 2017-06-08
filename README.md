@@ -74,3 +74,19 @@ class HomeScreen extends React.Component  {
     }
 }
  ```
+ 
+ 
+- Menu constructor
+ ```
+const YourAppRoute = StackNavigator({
+    Home: {screen: HomeScreen},
+    SecondScreen: {screen: SecondScreen},
+    ThirdScreen: {screen: ThirdScreen},
+}); 
+```
+- Maine state app
+ ```
+AppRegistry.registerComponent('reactNativeRouteExample', () => YourAppRoute);
+ ```
+ 
+ For more information about react-native see [Official docomentation of react-native](https://facebook.github.io/react-native/docs/getting-started.html).
